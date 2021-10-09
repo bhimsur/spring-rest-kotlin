@@ -82,3 +82,26 @@
 ### Delete
 - Method : DELETE
 - Endpoint : `/api/division/{id}`
+
+## Schedule
+
+### List
+- Method : GET
+- Endpoint `/api/schedule`
+- Accept: application/json
+- Response Body :
+    ```json
+    {
+      "message": "string",
+      "data": [
+        {
+          "id": "UUID",
+          "dateTime": "Date"
+        },
+        {
+          "id": "UUID",
+          "dateTime": "Date"
+        }
+      ]
+    }
+    ```
